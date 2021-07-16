@@ -14,9 +14,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
@@ -68,14 +65,11 @@ public class Base {
 		if (((System.getenv("browser")) != null) && !(System.getenv("browser").isEmpty())) {
 
 			browser = System.getenv("browser");
-			System.out.println(browser);
-			System.out.println("test");
 
 		} else {
 			System.out.println("test1");
 			
 			browser = config.getProperty("browser");
-			System.out.println(browser);
 		}
 
 		config.setProperty("browser", browser);
@@ -114,9 +108,9 @@ public class Base {
 		select.selectByIndex(0);
 	}
 
-	@AfterTest
-	public void tearDown(){
-		driver.quit();
-	}
+//	@AfterTest
+//	public void tearDown(){
+//		driver.quit();
+//	}
 	
 }
