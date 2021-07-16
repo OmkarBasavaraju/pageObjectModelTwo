@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26566" started-at="2021-07-16T11:55:35 AEST" finished-at="2021-07-16T11:56:02 AEST">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="17966" started-at="2021-07-16T11:55:35 AEST" finished-at="2021-07-16T11:55:53 AEST">
+      <class name="TestCases.Login">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:TestCases.Login@6fefce9e]" name="login" duration-ms="15369" started-at="2021-07-16T11:55:38 AEST" data-provider="dp" finished-at="2021-07-16T11:55:53 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumlearning96@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abcd1234#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- TestCases.Login -->
+    </test> <!-- Login -->
+    <test name="CreateAccount" duration-ms="7337" started-at="2021-07-16T11:55:54 AEST" finished-at="2021-07-16T11:56:02 AEST">
+      <class name="TestCases.CreateAccount">
+        <test-method status="PASS" signature="CreateAccount()[pri:2, instance:TestCases.CreateAccount@523424b5]" name="CreateAccount" duration-ms="7333" started-at="2021-07-16T11:55:54 AEST" finished-at="2021-07-16T11:56:02 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+      </class> <!-- TestCases.CreateAccount -->
+    </test> <!-- CreateAccount -->
+  </suite> <!-- Suite -->
+</testng-results>
