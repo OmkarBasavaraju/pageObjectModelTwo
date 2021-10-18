@@ -67,7 +67,6 @@ public class Base {
 			browser = System.getenv("browser");
 
 		} else {
-			System.out.println("test1");
 			
 			browser = config.getProperty("browser");
 		}
